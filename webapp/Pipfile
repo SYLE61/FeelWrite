@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pylint = "*"
+black = "*"
+flask = "*"
+python-dotenv = "*"
+pymongo = "*"
+flask-bcrypt = "*"
+flask-login = "*"
+bson = "*"
+
+[dev-packages]
+tomli = "*"
+typing-extensions = "*"
